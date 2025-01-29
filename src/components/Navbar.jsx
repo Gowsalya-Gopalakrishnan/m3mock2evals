@@ -5,8 +5,8 @@ import Dashboard from './Dashboard'
 const Navbar = () => {
   return (
     <>
-    <Home/>
-    <Dashboard/>
+    <Link to='/home' element={<Home/>}></Link>
+    <Link to='/about' element={<Dashboard/>}></Link>
     </>
     
   )

@@ -15,15 +15,7 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/dashboard' element={
-          <PrivateRoute>
-              <Dashboard/>
-            </PrivateRoute>}></Route>
-        <Route path='/login' element={<Login/>}></Route>
-      </Routes>
+     
     </>
   )
 }

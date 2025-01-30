@@ -41,7 +41,7 @@ const Books = () => {
       {isLoading && <p style={{color:"red",fontSize:"15px"}}>Loading....</p>}
       {error && <p>{error}</p>}
       <div>
-        <button>Add New Books</button>
+        <button onClick={()=>navigate("/addnew")}>Add New Books</button>
       </div>
       <div>
         <select name='category' value={category} onChange={(e)=>setCategory(e.target.value)}>

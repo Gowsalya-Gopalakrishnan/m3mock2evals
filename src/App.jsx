@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import Books from './pages/Books'
 import PrivateRoute from './components/PrivateRoute'
 import BookDetails from './pages/BookDetails'
+import AddNewBooks from './pages/AddNewBooks'
 
 
 
@@ -28,6 +29,11 @@ function App() {
        <Route path="/books/:id" element={
         <PrivateRoute>
         <BookDetails/>
+      </PrivateRoute>
+       }></Route>
+       <Route path="/addnew" element={
+        <PrivateRoute>
+        <AddNewBooks/>
       </PrivateRoute>
        }></Route>
       <Route path="/login" element={<Login/>}>Login</Route>

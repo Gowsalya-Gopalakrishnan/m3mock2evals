@@ -1,0 +1,30 @@
+.loginform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+    border: 2px solid #ddd;
+    margin-top: 10%;
+}
+.loginform h2{
+    margin: auto;
+
+}
+.loginform input[type="text"],
+input[type="password"]{
+    width: 40%;
+    height: 30px;
+    margin: auto;
+
+}
+.loginform input[type="submit"]{
+    padding: 10px 10px;
+    width: 20%;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color:white;
+    cursor:pointer
+}

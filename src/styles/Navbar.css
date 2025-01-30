@@ -1,0 +1,18 @@
+.navbar{
+    border: 2px solid #ddd;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.nav-links:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}

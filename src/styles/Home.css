@@ -1,0 +1,26 @@
+.home-page{
+    /* margin: auto; */
+    border: 2px solid #ddd;
+    text-align: center;
+    width: 70%;
+    height: 190px;   
+    justify-content: center;
+    align-content: center;   
+    margin: auto;
+}
+.home-page{
+    margin-top: 10%;
+
+}
+.home-page button{
+    padding: 10px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.home-page button:hover{
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}

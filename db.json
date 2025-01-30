@@ -21,16 +21,6 @@
       "description": "A philosophical novel about following one's dreams, inspired by the author's journey."
     },
     {
-      "id": 4,
-      "name": "Deep Work",
-      "category": "Productivity",
-      "price": 499,
-      "author": "Cal Newport",
-      "publishingYear": 2016,
-      "coverImage": "https://dummyimage.com/150x200/ff4500/ffffff&text=Deep+Work",
-      "description": "An exploration of the benefits of focused, undistracted work in an increasingly distracted world."
-    },
-    {
       "id": 5,
       "name": "The Pragmatic Programmer",
       "category": "Technology",
@@ -109,6 +99,16 @@
       "publishingYear": 2011,
       "coverImage": "https://dummyimage.com/150x200/8b0000/ffffff&text=The+Lean+Startup",
       "description": "A methodology for developing businesses and products through validated learning, experimentation, and innovation."
+    },
+    {
+      "name": "Gowsalya",
+      "coverImage": "https://dummyimage.com/150x200/ff6347/ffffff&text=The+Great+Gatsby",
+      "category": "fiction",
+      "price": "132",
+      "author": "john",
+      "publishingYear": "2025-01-03",
+      "description": "new updated book",
+      "id": 13
     }
   ]
 }

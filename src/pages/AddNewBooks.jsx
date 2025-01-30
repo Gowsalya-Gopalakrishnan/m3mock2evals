@@ -33,8 +33,8 @@ const AddNewBooks = () => {
     }
   return (
     <div>
-        <form onSubmit={handleSubmit}>
-            <h2>Add new bo/ok</h2>
+        <form onSubmit={handleSubmit} className='addnewform'>
+            <h2>Add new book</h2>
             <input type='text' placeholder='Enter Name' name='name'value={formData.name}onChange={handleChange}/>
             <input type='text' placeholder='Enter URL' name='coverImage'value={formData.coverImage}onChange={handleChange}/>
             <input type='text' placeholder='Enter Category' name='category'value={formData.category}onChange={handleChange}/>

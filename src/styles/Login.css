@@ -1,4 +1,4 @@
-.loginform{
+.loginform,.addnewform{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -7,18 +7,18 @@
     border: 2px solid #ddd;
     margin-top: 10%;
 }
-.loginform h2{
+.loginform,.addnewform h2{
     margin: auto;
 
 }
-.loginform input[type="text"],
-input[type="password"]{
+.loginform ,.addnewform input[type="text"],
+input[type="password"],input[type="number"],input[type="date"]{
     width: 40%;
     height: 30px;
     margin: auto;
 
 }
-.loginform input[type="submit"]{
+.loginform, .addnewform input[type="submit"]{
     padding: 10px 10px;
     width: 20%;
     margin: auto;

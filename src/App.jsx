@@ -8,6 +8,7 @@ import Login from './pages/Login'
 import Navbar from './components/Navbar'
 import Books from './pages/Books'
 import PrivateRoute from './components/PrivateRoute'
+import BookDetails from './pages/BookDetails'
 
 
 
@@ -24,6 +25,11 @@ function App() {
         <Books/>
       </PrivateRoute>
        }>Books</Route>
+       <Route path="/books/:id" element={
+        <PrivateRoute>
+        <BookDetails/>
+      </PrivateRoute>
+       }></Route>
       <Route path="/login" element={<Login/>}>Login</Route>
 
 
